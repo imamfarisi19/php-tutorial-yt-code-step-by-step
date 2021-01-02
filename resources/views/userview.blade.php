@@ -5,7 +5,7 @@
     <body>
         <form action="userController" method="POST">
         <input type="text" name="user">
-        {{csrf_field}}
+        @csrf
         <br><br>
         <input type="text" name="email">
         <br><br>
