@@ -19,4 +19,4 @@ Route::get('/', function () {
 });
 
 Route::view('/userview',"userview");
-Route::post('/usercontroller',[userController::class,'formSubmit'])->name('usercontroller');
+Route::post('/userController',[userController::class,'formSubmit'])->name('userController');
