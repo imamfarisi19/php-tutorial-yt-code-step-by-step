@@ -9,7 +9,6 @@ class userController extends Controller
     //
     public function formSubmit(Request $req)
     {
-        print_r($req->input('user'));
-        print_r($req->input('email'));
+        print_r($req->input());
     }
 }
