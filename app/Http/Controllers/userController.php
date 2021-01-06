@@ -9,6 +9,9 @@ class userController extends Controller
     //
     public function formSubmit(Request $req)
     {
-        print_r($req->input());
+        $result = $req->input();	
+		$hsl='';
+		$hsl = $hsl.implode($result);
+		echo $hsl;
     }
-}
+}	
